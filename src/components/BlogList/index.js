@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import './BlogList.css'
 
 const BlogList = ({title, i, text}) => {
     return (
@@ -13,8 +14,8 @@ const BlogList = ({title, i, text}) => {
                 // {text}
               </small>
             </p>
-            <div id="link-container" className="btn-container">
-              <Link to={`/blogs/${i}`} id="get-in-touch-btn" className="btn read-more">Read more</Link>
+            <div id="bloglist-link-container" className="bloglist-btn-container">
+              <Link to={`/blogs/${i}`}  className="btn bloglist-btn read-more">Read more</Link>
             </div>
           </div>
         </div>

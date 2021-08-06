@@ -5,7 +5,7 @@
     justify-self: end;
     color: #fff;
     text-align: center;
-    background-color: #000;
+    background-color: var(--clr-font);
 }
 
 .footer-container {
@@ -15,12 +15,21 @@
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-btn {
-    border: 2px solid #fff;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    font-family: var(--ff-secondary);
+    border-radius: 32px;
+    padding: 10px 20px;
+    margin: 5px;
+    box-shadow: var(--bs-primary);
 }
 
 .footer-icons {
-    font-size: var(--fs-h3)
+    font-size: 0.8rem;
 }
