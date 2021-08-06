@@ -1,0 +1,22 @@
+.nomatch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+    height: 50vh;
+    width: 100%;
+    padding: 10%;
+}
+
+.nomatch-icon {
+    font-size: 5rem;
+}
+.nomatch-text {
+    font-weight: var(--fw-regular);
+    font-family: var(--ff-secondary);
+    text-align: center;
+}
+.nomatch-button {
+    margin-top: 20px;
+}

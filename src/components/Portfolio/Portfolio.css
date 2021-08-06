@@ -1,0 +1,43 @@
+.portfolio {
+    margin: .5rem
+}
+
+.section-heading {
+    font-size: var(--fs-h2);
+    font-family: var(--ff-secondary);
+    line-height: 1.1;
+    font-weight: var(--fw-bold);
+    color: var(--clr-font);
+    font-size: var(--fs-h1);
+    margin-left: 5%;
+    z-index: 10;
+}
+
+
+.projects-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.live-demo-btn {
+    background-color: var(--clr-light);
+    color: var(--clr-font);
+    margin-bottom: 10px;
+
+}
+
+.source-code-btn {
+    background-color: var(--clr-font);
+    color: #fff;
+}
+
+@media (min-width: 376px) {
+    .live-demo-btn {
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+}
