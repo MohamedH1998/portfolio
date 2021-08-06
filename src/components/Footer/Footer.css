@@ -1,0 +1,26 @@
+.footer {
+    display: block;
+    width: 100%;
+    align-self: end;
+    justify-self: end;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
+
+.footer-container {
+    padding: 1.5rem;
+    width: 100%;
+    padding-right: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-btn {
+    border: 2px solid #fff;
+}
+
+.footer-icons {
+    font-size: var(--fs-h3)
+}

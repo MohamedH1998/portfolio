@@ -3,11 +3,11 @@ import './Blogs.css'
 import BlogSnippet from '.././BlogSnippet'
 import data from '../BlogText/data'
 
-const Blogs = ({handleClick}) => {
+const Blogs = () => {
 
   const postSnippets = data.slice(0).reverse().map((post, i) => {
     return(
-      <BlogSnippet key={i} title={post.title} handleClick={handleClick} id={i}  text={post.tagline} i={post.id}/>
+      <BlogSnippet key={i} title={post.title}  id={i}  text={post.tagline} i={post.id}/>
     )
   })
 

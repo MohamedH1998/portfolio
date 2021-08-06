@@ -15,16 +15,16 @@ const Introduction = () => {
           </small>
         </div>
         <div className="intro-body">
-          <div className="intro-content">
-            <p className="intro-text">
+          <div className="text-content">
+            <p className="text-body">
               I am a self-taught full-stack developer who enjoys solving
               problems with clean, scalable solutions.
-              <small id="second-intro-text" className="problem-solver">
+              <small id="second-text-body" className="problem-solver">
                 // through utilising various online resources, I have
                 developed my proficiency in various languages and tools.
               </small>
             </p>
-            <div id="get-in-touch-container" className="btn-container">
+            <div id="link-container" className="btn-container">
               <Link to="#contact-section" id="get-in-touch-btn" className="btn btn-primary">Get in touch</Link>
             </div>
           </div>

@@ -52,9 +52,9 @@
   margin-bottom: 20px;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+.card-text {
+  font-family: var(--ff-secondary);
+
 }
 .btn.read-more {
   background-color: var(--clr-accent);

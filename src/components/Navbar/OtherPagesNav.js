@@ -40,11 +40,6 @@ const OtherPagesNav = ({scrollToTop}) => {
               Blogs
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/contact"  onClick={handleClick} className="nav-links">
-              Contact
-            </Link>
-          </li>
         </ul>
       </div>
     )

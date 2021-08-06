@@ -8,10 +8,11 @@ import Blogs from './components/Blogs'
 import BlogPost from './components/BlogPost'
 
 import Portfolio from "./components/Portfolio";
-import HomeNav from "./components/Navbar/HomeNav";
+import BlogLists from "./components/BlogLists";
 import OtherPagesNav from "./components/Navbar/OtherPagesNav";
 import NoMatch from "./components/NoMatch";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const scrollToTop = () => window.scrollTo(0, 0);
@@ -31,16 +32,16 @@ function App() {
         <OtherPagesNav scrollToTop={scrollToTop}/>
           <BlogPost/>
         </Route>
-        <Route path="/contact" exact>
+        <Route path="/blogs" exact>
         <OtherPagesNav scrollToTop={scrollToTop}/>
-          <Contact/>
+          <BlogLists/>
         </Route>
         <Route path="*">
         <OtherPagesNav scrollToTop={scrollToTop}/>
           <NoMatch/>
         </Route>
         </Switch>
-
+    <Footer/>
     </Router>
   );
 }

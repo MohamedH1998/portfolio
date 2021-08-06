@@ -17,7 +17,6 @@ const BlogPost = () => {
       return <NoMatch/>
     }
     const blog = data[id]
-    console.log(blog)
     function blogText() {
       if (blog.id == 2 ) {
         return <Natural/>
@@ -32,7 +31,7 @@ const BlogPost = () => {
         <>
     <section className="blog-posts">
             <div className="blog-content">    
-              <Link to="/" className="btn back-home">Home</Link>
+              <Link to="/blogs" className="btn back-to-blogs">Blogs</Link>
               <div>
                   </div>
               <div className="row">

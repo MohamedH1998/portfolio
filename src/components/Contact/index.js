@@ -6,6 +6,7 @@ const Contact = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [submitMessage, setSubmitMessage] = useState(false)
 
   const encode = (data) => {
     return Object.keys(data)
@@ -21,10 +22,18 @@ const Contact = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message })
     })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
+      .then(() => {
+        setName("")
+        setEmail("")
+        setMessage("")
+        setSubmitMessage("thank you")
+      })
+      .catch(error => {
+        setSubmitMessage("something went wrong, try again?")
+      });
 
     e.preventDefault();
+
   };
     return (
         <div id="contact-section" className="contact-form">
@@ -32,7 +41,7 @@ const Contact = () => {
         <div className="form-container">
           <form onSubmit={handleSubmit} name="contact" method="POST" method="post" data-netlify="true" data-netlify-honeypot="bot-field" >
           <input type="hidden" name="form-name" value="contact" />
-            <h3 className="form-title">say hi <i className="contact-icon"><BiSmile/></i></h3>
+            <h3 className="form-title">{!submitMessage ? "say hi " : `${submitMessage} `}<i className="contact-icon"><BiSmile/></i></h3>
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input
