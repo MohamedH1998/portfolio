@@ -28,9 +28,9 @@ function App() {
          <Blogs />
          <Contact/>
         </Route>
-        <Route path="/blogs" exact>
+        <Route path="/blogs/:id" exact>
         <OtherPagesNav scrollToTop={scrollToTop}/>
-          <BlogLists/>
+          <BlogPost/>
         </Route>
         <Route path="*">
         <OtherPagesNav scrollToTop={scrollToTop}/>

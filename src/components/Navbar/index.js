@@ -10,7 +10,6 @@ const Navbar = ({ scrollToTop }) => {
 
   const handleClick = () => {
     setClick(!click);
-    scrollToTop();
   };
 
   click ? disableBodyScroll(document) : enableBodyScroll(document)
