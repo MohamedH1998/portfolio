@@ -25,8 +25,9 @@ const Introduction = () => {
               </small>
             </p>
             <div id="link-container" className="btn-container">
-              <Link to="contact-form" spy={true} smooth={true}  offset={-100} id="get-in-touch-btn" className="btn btn-primary">Get in touch</Link>
-            </div>
+            <Link to="contact-form" spy={true} smooth={true} offset={-100} className="btn btn-primary">
+            Get in touch
+          </Link>            </div>
           </div>
           <img className="rotating-txt" src={photo} alt=""/>
         </div>

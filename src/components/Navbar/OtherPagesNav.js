@@ -8,7 +8,7 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import { HashLink as Link} from 'react-router-hash-link';
 
 
-const OtherPagesNav = ({scrollToTop}) => {
+const OtherPagesNav = () => {
 
   const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;

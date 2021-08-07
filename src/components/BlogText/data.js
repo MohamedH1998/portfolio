@@ -21,7 +21,7 @@ const data = [
     title: ["Review: ", <i>Natural</i>],
     date: "31/01/2021",
     readTime: "3 mins",
-    tagline: ["An exploration of the relationship with Nature through a review of Alan Levinovitz&#39; book Natural: ", <i>The Seductive Myth of Nature’s Goodness.</i>],
+    tagline: ["An exploration of the relationship with Nature through a review of Alan Levinovitz' book Natural: ", <i>The Seductive Myth of Nature’s Goodness.</i>],
   }
   
 ];

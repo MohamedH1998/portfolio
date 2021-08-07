@@ -15,13 +15,12 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-  const scrollToTop = () => window.scrollTo(0, 0);
-  
+ 
   return (
     <Router>
       <Switch>
         <Route path="/" exact>
-        <Navbar scrollToTop={scrollToTop}/>
+        <Navbar />
           <Hero/>
           <Introduction/>
           <Portfolio/>
@@ -29,11 +28,11 @@ function App() {
          <Contact/>
         </Route>
         <Route path="/blogs/:id" exact>
-        <OtherPagesNav scrollToTop={scrollToTop}/>
+        <OtherPagesNav />
           <BlogPost/>
         </Route>
         <Route path="*">
-        <OtherPagesNav scrollToTop={scrollToTop}/>
+        <OtherPagesNav/>
           <NoMatch/>
         </Route>
         </Switch>

@@ -5,7 +5,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import "./Navbar.css";
 
-const Navbar = ({ scrollToTop }) => {
+const Navbar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => {
@@ -17,7 +17,7 @@ const Navbar = ({ scrollToTop }) => {
   return (
     <div className="navbar">
       <div className="navbar-container">
-        <Link to="/" onClick={scrollToTop} className="navbar-logo">
+        <Link to="/" className="navbar-logo">
         MH - 21 ©
         </Link>
         <span onClick={() => setClick(!click)} className="menu-icon">
