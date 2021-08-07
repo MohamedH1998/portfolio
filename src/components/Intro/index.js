@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-scroll'
 
 import photo from '../../assets/imgs/rotating-text-t.png'
 
@@ -25,7 +25,7 @@ const Introduction = () => {
               </small>
             </p>
             <div id="link-container" className="btn-container">
-              <Link to="#contact-section" id="get-in-touch-btn" className="btn btn-primary">Get in touch</Link>
+              <Link to="contact-form" spy={true} smooth={true}  offset={-100} id="get-in-touch-btn" className="btn btn-primary">Get in touch</Link>
             </div>
           </div>
           <img className="rotating-txt" src={photo} alt=""/>
