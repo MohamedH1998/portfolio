@@ -32,22 +32,22 @@ const Navbar = ({ scrollToTop }) => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="about" spy={true} smooth={true}  onClick={handleClick} className="nav-links">
+          <Link to="about" spy={true} smooth={true}  offset={-100} onClick={handleClick} className="nav-links">
             About
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="portfolio" spy={true} smooth={true} onClick={handleClick} className="nav-links">
+          <Link to="portfolio" spy={true} smooth={true} offset={-100} onClick={handleClick} className="nav-links">
             Portfolio
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="blogs" spy={true} smooth={true} onClick={handleClick} className="nav-links">
+          <Link to="blogs" spy={true} smooth={true} offset={-100} onClick={handleClick} className="nav-links">
             Blogs
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="contact-form" spy={true} smooth={true} onClick={handleClick} className="nav-links">
+          <Link to="contact-form" spy={true} smooth={true} offset={-100} onClick={handleClick} className="nav-links">
             Contact
           </Link>
         </li>

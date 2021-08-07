@@ -31,7 +31,7 @@ const BlogPost = () => {
         <>
     <section className="blog-posts">
             <div className="blog-content">    
-              <Link to="/blogs" className="btn back-to-blogs">Blogs</Link>
+              <Link to="/" className="btn back-to-blogs">Home</Link>
               <div>
                   </div>
               <div className="row">

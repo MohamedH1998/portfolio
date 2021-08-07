@@ -6,8 +6,8 @@ import photo from '../../assets/imgs/rotating-text-t.png'
 import './Introduction.css'
 const Introduction = () => {
     return (
-        <div>
-            <div id="about-section" className="about">
+        <div id="about-section" className="about">
+            <div >
         <div>
           <h2 className="section-heading">Intro</h2>
           <small id="first-intro-text" className="problem-solver">

@@ -28,10 +28,6 @@ function App() {
          <Blogs />
          <Contact/>
         </Route>
-        <Route path="/blogs/:id" exact>
-        <OtherPagesNav scrollToTop={scrollToTop}/>
-          <BlogPost/>
-        </Route>
         <Route path="/blogs" exact>
         <OtherPagesNav scrollToTop={scrollToTop}/>
           <BlogLists/>

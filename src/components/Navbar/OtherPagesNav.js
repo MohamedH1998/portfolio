@@ -1,13 +1,20 @@
 import React, { useState } from "react";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { VscAccount } from "react-icons/vsc";
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { HashLink as Link} from 'react-router-hash-link';
 
 
 const OtherPagesNav = ({scrollToTop}) => {
+
+  const scrollWithOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100; 
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+}
 
     const [click, setClick] = useState(false);
 
@@ -22,7 +29,7 @@ const OtherPagesNav = ({scrollToTop}) => {
     return (
         <div className="navbar">
         <div className="navbar-container">
-          <Link to="/" onClick={handleClick} className="navbar-logo">
+          <Link smooth to="/" onClick={handleClick} className="navbar-logo">
           MH - 21 ©
           </Link>
           <span onClick={() => setClick(!click)} className="menu-icon">
@@ -31,13 +38,28 @@ const OtherPagesNav = ({scrollToTop}) => {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/"  onClick={handleClick} className="nav-links">
+            <Link smooth to="/"  onClick={handleClick} className="nav-links">
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/blogs"  onClick={handleClick} className="nav-links">
+            <Link smooth to="/#about-section"  scroll={el => scrollWithOffset(el)} onClick={handleClick} className="nav-links">
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link smooth to="/#portfolio-section"  scroll={el => scrollWithOffset(el)} onClick={handleClick} className="nav-links">
+              Portfolio
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link smooth to="/#blogs-section"  scroll={el => scrollWithOffset(el)} onClick={handleClick} className="nav-links">
               Blogs
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link smooth to="/#contact-section"  scroll={el => scrollWithOffset(el)} onClick={handleClick} className="nav-links">
+              Contact
             </Link>
           </li>
         </ul>
