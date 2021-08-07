@@ -23,7 +23,7 @@ const Hero = () => {
             <img className="main-img" alt="Photo of me" src={photo}/>
             </div>
             <div className="btn-container">
-        <Link to="about" spy={true} smooth={true} className="btn btn-primary">
+        <Link to="about" spy={true} smooth={true} offset={-100} className="btn btn-primary">
             About me
           </Link>
         
