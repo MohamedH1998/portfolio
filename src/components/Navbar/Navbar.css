@@ -27,7 +27,6 @@
   color: var(--clr-dark);
   font-family: var(--ff-primary);
   justify-self: start;
-  cursor: pointer;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: var(--fw-bold);

@@ -17,9 +17,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
+        <span className="navbar-logo">
         MH - 21 ©
-        </Link>
+        </span>
         <span onClick={() => setClick(!click)} className="menu-icon">
           {click ? <FaTimes /> : <FaBars />}
         </span>
