@@ -24,7 +24,7 @@ const Portfolio = () => {
         cardText="The Camper App is a full-stack application that enables users to
               view various campground locations from around the world and
               allows them to create their own."/>
-        <Project photo={tasktrckr} cardTitle="TaskTrckr" sourceCode="https://github.com/MohamedH98/kiqs" liveDemo="https://tasktrckr.netlify.app//" 
+        <Project photo={tasktrckr} cardTitle="Task Tracker" sourceCode="https://github.com/MohamedH98/kiqs" liveDemo="https://tasktrckr.netlify.app//" 
         cardText="This a React task tracker app that uses functional components, utilising props, state, hooks, and also works with an API."/>
         <Project photo={mapty} cardTitle="Mapty" sourceCode="https://github.com/MohamedH98/Mapty" liveDemo="https://trackmyworkout.netlify.app/" 
         cardText="Mapty is an application that enables users to document their
