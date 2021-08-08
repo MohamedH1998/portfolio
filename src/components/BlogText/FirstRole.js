@@ -21,11 +21,11 @@ const FirstRole = () => {
             </ol>
             <h5 className="blog-subheadings bold">1. Is coding for me?</h5>
             <p className="blog-p">
-            There were a few misconceptions I had when I was looking to start learning how to code, namely being a maths wiz. I stumbled across a <a target="_blank" className="external-link" href="">Python course</a> and decided to just do it without much thinking. Personally, I think this course was a great starting point as it required no prerequisite knowledge, and I found the Python syntax (the way the code is written) was beginner friendly as it is written quite similarly to English.
+            There were a few misconceptions I had when I was looking to start learning how to code, namely being a maths wiz. I stumbled across a <a target="_blank" className="external-link" href="https://www.udemy.com/course/the-modern-python3-bootcamp/">Python course</a> and decided to just do it without much thinking. Personally, I think this course was a great starting point as it required no prerequisite knowledge, and I found the Python syntax (the way the code is written) was beginner friendly as it is written quite similarly to English.
             </p>
             <h5 className="blog-subheadings bold">2. Coding is for me, now what?</h5>
             <p className="blog-p">
-            After watching YouTube videos, reading blogs and posts on r/cscareerquestions about people who have made the transition into tech, one learning resource that kept coming up frequently was  <a target="_blank" className="external-link" href="">Harvard’s CS50 Introduction to Computer Science</a>.   
+            After watching YouTube videos, reading blogs and posts on r/cscareerquestions about people who have made the transition into tech, one learning resource that kept coming up frequently was  <a target="_blank" className="external-link" href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Harvard’s CS50 Introduction to Computer Science</a>.   
             This really changed the game for me. I was walked through fundamental computer science concepts at a very beginner friendly way, which I think served me well in my later courses.
             <br></br>
             <br></br>
@@ -36,7 +36,7 @@ const FirstRole = () => {
                 Software engineering/ developing is the most loaded term ever, I spent most of my time trying to decide what kind of developer I wanted to be, I had no idea how to choose between front-end dev, back-end dev, mobile dev, game dev, devOps…the list goes on (if none of this makes sense to you, don’t worry).
                 <br></br>
                 <br></br>
-                Most of the articles that I have read tell people to start here- find out what type of developer you want to be and learn the appropriate skills. I had a look at a <a target="_blank" className="external-link" href="">list of different types of developers</a> and eliminated the ones that I knew I did not want to become. From there, I had a look at the job requirements for as many entry-level ‘software’ related jobs I could find in my local area, identifying which technologies/coding languages were sought after the most.
+                Most of the articles that I have read tell people to start here- find out what type of developer you want to be and learn the appropriate skills. I had a look at a <a target="_blank" className="external-link" href="https://www.technojobs.co.uk/info/developer-guides/the-different-types-of-developer-jobs.phtml">list of different types of developers</a> and eliminated the ones that I knew I did not want to become. From there, I had a look at the job requirements for as many entry-level ‘software’ related jobs I could find in my local area, identifying which technologies/coding languages were sought after the most.
                 <br></br>
                 <br></br>
                 <strong>HTML, CSS, JavaScript, and Python</strong> were popping up time and time again. These are used in <strong>Web Development</strong>, and as I have come across numerous articles that stated Web Development to be the easiest point of entry into tech, I decided to take that route.
