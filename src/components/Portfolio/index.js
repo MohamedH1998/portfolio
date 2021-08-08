@@ -37,7 +37,6 @@ const Portfolio = () => {
         upload new recipes and bookmark them too. *desktop only*"/>
       <Project photo={kiqs} cardTitle="Kiqs" sourceCode="#" liveDemo="#" 
         cardText="Kiqs is an SPA for a premium sneaker subscription service provider. Built using HTML, CSS, Bootstrap, Vanilla JS."/>
-
       </div>
     </div>
         </div>
