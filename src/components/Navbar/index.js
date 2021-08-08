@@ -12,7 +12,7 @@ const Navbar = () => {
     setClick(!click);
   };
 
-  click ? disableBodyScroll(document) : enableBodyScroll(document)
+  // click ? disableBodyScroll(document) : enableBodyScroll(document)
 
   return (
     <div className="navbar">
@@ -20,11 +20,11 @@ const Navbar = () => {
         <span className="navbar-logo">
         MH - 21 ©
         </span>
-        <span onClick={() => setClick(!click)} className="menu-icon">
+        <span onClick={handleClick} className="menu-icon">
           {click ? <FaTimes /> : <FaBars />}
         </span>
       </div>
-      <ul className={click ? "nav-menu" : "nav-menu"}>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li className="nav-item">
           <Link activeClass="active" to="home" spy={true} smooth={true} onClick={handleClick} className="nav-links">
             Home
