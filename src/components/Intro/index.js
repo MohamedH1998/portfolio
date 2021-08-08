@@ -24,7 +24,7 @@ const Introduction = () => {
                 developed my proficiency in various languages and tools.
               </small>
             </p>
-            <div id="link-container" className="btn-container">
+            <div className="btn-container">
             <Link to="contact-form" spy={true} smooth={true} offset={-100} className="btn btn-primary">
             Get in touch
           </Link>            </div>

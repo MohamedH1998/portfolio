@@ -41,7 +41,7 @@ const Motivations = () => {
           
           These reasons that I have laid out are the ones that I think are not the most intuitive, other reasons include:
           </p>
-          <ul className="list-of-reasons">
+          <ul className="blog-post-list">
           <li>Continuous Development- constantly at the forefront of knowledge</li>
           <li>High Demand- demand is only going to increase</li>
           <li>Remote working- ideal for personal life</li>

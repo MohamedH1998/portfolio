@@ -63,7 +63,8 @@
   }
 
   .blog-subheadings {
-    font-weight: var(--fw-regular)
+    font-weight: var(--fw-regular);
+    margin: 30px 0px;
   }
 
 .blog-p {
@@ -71,10 +72,42 @@
     line-height: 22px;
   }
 
-.list-of-reasons li {
+.blog-post-list li {
     padding: 3px;
 }
   
-ul {
+.blog-post-list {
     padding-inline-start: 20px;
-} 
+}
+
+.bold {
+  font-weight: var(--fw-bold)
+}
+
+.external-link {
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
+  color: blue;
+}
+
+.blog-img-container {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+.tech-stack-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 5px;
+  /* padding: 10px; */
+}
+
+.blog-img-tagline {
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+}

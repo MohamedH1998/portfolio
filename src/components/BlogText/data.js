@@ -12,7 +12,7 @@ const data = [
     topic: "Journey",
     title: "Why a developer?",
     date: "04/04/2021",
-    readTime: "3 mins",
+    readTime: "2 mins",
     tagline: "A dive into my motivations in wanting to becoming a developer.",
   },
   {
@@ -20,8 +20,16 @@ const data = [
     topic: "Interests",
     title: ["Review: ", <i>Natural</i>],
     date: "31/01/2021",
-    readTime: "3 mins",
+    readTime: "5 mins",
     tagline: ["An exploration of the relationship with Nature through a review of Alan Levinovitz' book Natural: ", <i>The Seductive Myth of Nature’s Goodness.</i>],
+  },
+  {
+    id: "3",
+    topic: "Journey",
+    title: "My First Developer Role",
+    date: "08/08/2021",
+    readTime: "5 mins",
+    tagline: "Sharing the process I took to land my first developer role, including learning resources and useful blogs.",
   }
   
 ];

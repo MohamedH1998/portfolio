@@ -11,7 +11,7 @@ const BlogSnippet = ({title, i, text}) => {
     scrollToTop();
   };
     return (
-      <div>
+      <>
       <div  className="blog-card">
       <div className="recent-posts-info">
         <span>#{i}</span>
@@ -23,7 +23,7 @@ const BlogSnippet = ({title, i, text}) => {
           >Read more</Link>
       </div>
     </div>
-        </div>
+        </>
 
     )
 }

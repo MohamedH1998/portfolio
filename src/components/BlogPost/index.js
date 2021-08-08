@@ -7,6 +7,7 @@ import Natural from '../BlogText/Natural'
 import Motivations from '../BlogText/Motivations';
 import TurningPoint from '../BlogText/TurningPoint';
 import NoMatch from '../NoMatch';
+import FirstRole from '../BlogText/FirstRole';
 
 
 
@@ -18,13 +19,15 @@ const BlogPost = () => {
     }
     const blog = data[id]
     function blogText() {
-      if (blog.id == 2 ) {
-        return <Natural/>
+      if (blog.id == 0 ) {
+        return <TurningPoint/>
       } else if (blog.id == 1) {
         return <Motivations/>
-      } else if (blog.id == 0) {
-        return <TurningPoint/>
-      } 
+      } else if (blog.id == 2) {
+        return <Natural/>
+      } else if (blog.id == 3) {
+        return <FirstRole/>
+      }
     }
 
     return (

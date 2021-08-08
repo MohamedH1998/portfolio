@@ -13,6 +13,9 @@
     cursor: grab;
 }
 
+.scrolling-wrapper:first-child {
+    padding-left: 50px;
+}
 @media (min-width: 1000px) {
     .scrolling-wrapper {
         display: flex;
