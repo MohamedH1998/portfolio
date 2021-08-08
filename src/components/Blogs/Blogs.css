@@ -14,7 +14,7 @@
 }
 
 .scrolling-wrapper:first-child {
-    padding-left: 50px;
+    padding-left: 2%;
 }
 @media (min-width: 1000px) {
     .scrolling-wrapper {
