@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -12,7 +11,9 @@ const Navbar = () => {
     setClick(!click);
   };
 
-  // click ? disableBodyScroll(document) : enableBodyScroll(document)
+  useEffect(()=> {
+    click ? document.body.style.overflow = 'hidden' :  document.body.style.overflow = 'unset';
+  }, [click])
 
   return (
     <div className="navbar">
