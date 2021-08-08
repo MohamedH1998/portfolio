@@ -24,7 +24,7 @@ const Navbar = () => {
           {click ? <FaTimes /> : <FaBars />}
         </span>
       </div>
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <ul className={click ? "nav-menu" : "nav-menu"}>
         <li className="nav-item">
           <Link activeClass="active" to="home" spy={true} smooth={true} onClick={handleClick} className="nav-links">
             Home
