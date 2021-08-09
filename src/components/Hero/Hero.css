@@ -38,7 +38,14 @@ h1 {
     filter: drop-shadow(5px 5px 5px #222);
     vertical-align: middle;
     border-style: none;
+    transition: opacity 1s;
 }
+  .image-visible {
+    opacity: 1;
+  }
+  .image-hidden {
+    opacity: 0;
+  }
 
 .dot {
     position: fixed;
@@ -179,3 +186,4 @@ a, a:hover, a:focus, a:active {
     grid-row: row 4;
 }
 }
+

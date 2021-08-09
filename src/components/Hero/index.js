@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 
 import photo from '../../assets/imgs/sidelook-removebg-preview.png'
@@ -8,6 +8,7 @@ import { Link } from "react-scroll";
 
 
 const Hero = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
     return (
         <>
         <div id="home-section" className="home">
@@ -20,7 +21,7 @@ const Hero = () => {
           <span id="dot-4" className="dot"> </span>
           <span id="dot-5" className="dot"> </span>
           <div className="main-image-container">
-            <img className="main-img" alt="Photo of me" src={photo}/>
+            <img className={`main-img image-${imageLoaded ? "visible" : "hidden"}`} onLoad={() => setImageLoaded(true)}alt="Photo of me" src={photo}/>
             </div>
             <div className="btn-container">
         <Link to="about" spy={true} smooth={true} offset={-100} className="btn btn-primary">

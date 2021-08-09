@@ -6,9 +6,9 @@ const FirstRole = () => {
     return (
         <div>
             <p className="blog-p">
-            I have finally landed a developer role, and after sharing the news with some friends, I got questions
+            I have finally landed a developer role and after sharing the news with some friends, I got questions
             about what I had done to land the role. Below I go into detail about my journey, covering most of the courses that I have completed along
-            with my reasoning. The process seemed extremely mystified to me when I was starting out, hopefully this helps demystify the whole process.          
+            with the reasons why. The process seemed extremely mystified to me when I was starting out, hopefully this helps demystify the whole process.          
             </p>
             <h5 className="blog-subheadings bold">Content</h5>
             <ol className="blog-post-list">
@@ -21,7 +21,7 @@ const FirstRole = () => {
             </ol>
             <h5 className="blog-subheadings bold">1. Is coding for me?</h5>
             <p className="blog-p">
-            There were a few misconceptions I had when I was looking to start learning how to code, namely being a maths wiz. I stumbled across a <a target="_blank" className="external-link" href="https://www.udemy.com/course/the-modern-python3-bootcamp/">Python course</a> and decided to just do it without much thinking. Personally, I think this course was a great starting point as it required no prerequisite knowledge, and I found the Python syntax (the way the code is written) was beginner friendly as it is written quite similarly to English.
+            There were a few misconceptions I had when I was looking to start learning how to code, namely having to be a maths wiz, however, most courses don't require any sort of prerequisite knowledge. I stumbled across a <a target="_blank" className="external-link" href="https://www.udemy.com/course/the-modern-python3-bootcamp/">Python course</a> and decided to just do it without much thinking. Personally, I think this course was a great starting point as it required no prerequisite knowledge, and I found the Python syntax (the way the code is written) was beginner friendly as it is written quite similarly to English.
             </p>
             <h5 className="blog-subheadings bold">2. Coding is for me, now what?</h5>
             <p className="blog-p">
@@ -53,7 +53,7 @@ const FirstRole = () => {
             As I decided on the Web Development route, I looked for related courses, sorted by popularity and started a <a target="_blank" className="external-link" href="https://www.udemy.com/course/the-web-developer-bootcamp/">Web Developer Bootcamp</a> after having compared it with job descriptions for web dev roles.
             <br></br>
             <br></br>
-            Half-way through the course, I ended up getting really stuck at one section, and after rewatching all the lectures 3 times, I decided that should supplement this course with another <a target="_blank" className="external-link" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Web Development Bootcamp</a> Contents are very similar and I wouldn’t recommend doing both, I would probably just do the second.
+            Half-way through the course, I ended up getting really stuck at one section, and after rewatching all the lectures 3 times, I decided that should supplement this course with another <a target="_blank" className="external-link" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Web Development Bootcamp</a>. The contents are very similar and I wouldn’t recommend doing both, I would probably just do the second (Dr Yu's course).
             <br></br>
             <br></br>
             Again, towards the middle of this course when the JavaScript was picking up, I felt as though I wasn’t fully understanding what was going on. I then put the other two courses on pause and started a <a target="_blank" className="external-link" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Complete JavaScript Course</a>. An absolute gem if you want a solid understanding in JavaScript in my opinion. The instructor explains things very well, often coming back to them in future lectures and his use of diagrams in his lectures to help you visualise how systems/concepts work was really helpful <strong>[HIGHLY RECOMMEND]</strong>.

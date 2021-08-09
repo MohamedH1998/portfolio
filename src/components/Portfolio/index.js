@@ -25,7 +25,7 @@ const Portfolio = () => {
               view various campground locations from around the world and
               allows them to create their own."/>
         <Project photo={tasktrckr} cardTitle="Task Tracker" sourceCode="https://github.com/MohamedH98/kiqs" liveDemo="https://tasktrckr.netlify.app//" 
-        cardText="This a React task tracker app that uses functional components, utilising props, state, hooks, and also works with an API."/>
+        cardText="This a React task tracker app that allows users to create/delete tasks and toggle whether they want reminders for the tasks or not"/>
         <Project photo={mapty} cardTitle="Mapty" sourceCode="https://github.com/MohamedH98/Mapty" liveDemo="https://trackmyworkout.netlify.app/" 
         cardText="Mapty is an application that enables users to document their
         workouts (run/cycle), record the distance, time, and
@@ -36,9 +36,7 @@ const Portfolio = () => {
         for meals they search for. The application also enables users to
         upload new recipes and bookmark them too. *desktop only*"/>
         <Project photo={papaya} cardTitle="Papaya" sourceCode="https://github.com/MohamedH98/Papaya" liveDemo="https://papaya-track.netlify.app/" 
-        cardText="Forkify is an application that allows users to view the recipes
-        for meals they search for. The application also enables users to
-        upload new recipes and bookmark them too. *desktop only*"/>
+        cardText="A supply chain company that uses the blockchain."/>
 
       </div>
     </div>
