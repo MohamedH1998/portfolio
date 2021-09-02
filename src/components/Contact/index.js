@@ -41,7 +41,7 @@ const Contact = () => {
         <div className="form-container">
           <form onSubmit={handleSubmit} name="contact" method="POST" method="post" data-netlify="true" data-netlify-honeypot="bot-field" >
           <input type="hidden" name="form-name" value="contact" />
-            <h3 className="form-title">{!submitMessage ? "say hi " : `${submitMessage} `}<i className="contact-icon"><BiSmile/></i></h3>
+            <h3 className="form-title">{!submitMessage ? "Say hi " : `${submitMessage} `}<i className="contact-icon"><BiSmile/></i></h3>
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input
